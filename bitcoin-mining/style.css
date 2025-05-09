@@ -1,0 +1,280 @@
+body {
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+}
+
+h2 {
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+.main-nav {
+    color: white;
+
+}
+
+label {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero {
+    background-image:url('images/bitcoin-hero-img.webp');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    background-attachment: fixed;
+}
+
+.content {
+    position: absolute;
+    top: 40%;
+    right: 15%
+
+}
+
+
+/* button */
+button {
+    margin: 20px;
+  }
+  .custom-btn {
+    width: 250px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  
+.btn-3 {
+    background: rgb(128, 172, 190);
+  background: linear-gradient(0deg, rgb(33, 46, 51) 0%, rgb(123, 160, 198) 100%);
+    width: 170px;
+    height: 42px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    
+  }
+  .btn-3 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .btn-3:before,
+  .btn-3:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+     background: rgb(95, 105, 116);
+    transition: all 0.3s ease;
+  }
+  .btn-3:before {
+    height: 0%;
+    width: 2px;
+  }
+  .btn-3:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-3:hover{
+     background: transparent;
+    box-shadow: none;
+  }
+  .btn-3:hover:before {
+    height: 100%;
+  }
+  .btn-3:hover:after {
+    width: 100%;
+  }
+  .btn-3 span:hover{
+     color: rgb(84, 102, 119);
+  }
+  .btn-3 span:before,
+  .btn-3 span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+     background: rgb(81, 95, 108);
+    transition: all 0.3s ease;
+  }
+  .btn-3 span:before {
+    width: 2px;
+    height: 0%;
+  }
+  .btn-3 span:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-3 span:hover:before {
+    height: 100%;
+  }
+  .btn-3 span:hover:after {
+    width: 100%;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 80%;
+    margin: auto;
+  }
+
+  .flex-container>div {
+    border: solid;
+    width: 33.3%;
+    height: 210px;
+    cursor: pointer;
+  }
+
+  
+
+  .asic-miners {
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('images/asic-miner-banner.jpg');
+    background-size: cover;
+  }
+
+  .asic-miners:before {    
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.25);
+}
+
+.asic-miners:hover {
+    opacity: 0.7;
+}
+
+.text {
+    position: relative;
+    color: #ffffff;  
+    font-weight: 400;
+    line-height: 0.9;
+    text-align: center;
+    
+}
+  
+
+.text >h2  {
+    position: relative;
+    color: #ffffff;  
+    font-weight: 700;
+    line-height: 0.9;
+    text-align: center;
+  }
+
+
+  .rig {
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('images/rig-banner.jpg');
+    background-size: cover;
+  }
+
+  .rig:before {    
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.25);
+}
+
+.rig:hover {
+    opacity: 0.7;
+}
+
+
+.cooling {
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('images/cooling-baanner.webp');
+    background-size: cover;
+  }
+
+  .cooling:before {    
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.25);
+}
+
+.cooling:hover {
+    opacity: 0.7;
+}
+
+.product {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.product-content {
+  background-color: rgb(18, 24, 49);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.product img:hover {
+  transform: scale(1.3); 
+}
+
+ .btn {
+  border: black solid;
+  width: 120px;
+  border-radius: 17px;
+  outline: none;
+  margin-right: 2px;
+  background-color: #f90000;
+  cursor: pointer;
+}
+
+.filterDiv {
+  
+  display: none;
+}
+
+.show {
+  display: block;
+}
